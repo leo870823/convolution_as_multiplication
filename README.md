@@ -27,7 +27,8 @@ If the I is **m1 x n1** and F is m2 x n2 the size of the output will be:
 
 ### 3. Zero-pad the filter matrix
 Zero pad the filter to make it the same size as the output.
-output size = (input size + 2*padding – kernel size + stride)/stride
+
+##output size = (input size + 2*padding – kernel size + stride)/stride
 
 ![](./images/3.png)
 
