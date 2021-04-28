@@ -1,4 +1,4 @@
-# Convolution as Matrix Multiplication
+# Full Convolution as Matrix Multiplication
 Step by step explanation of 2D convolution implemented as matrix multiplication using toeplitz matrices
 
 
@@ -29,7 +29,8 @@ If the I is **m1 x n1** and F is m2 x n2 the size of the output will be:
 Zero pad the filter to make it the same size as the output.
 
 ##output size = (input size + 2*padding – kernel size + stride)/stride
-
+For this case:
+output size = (input size + 2*(kernel size) – kernel size + 1)/1
 ![](./images/3.png)
 
 
